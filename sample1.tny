@@ -1,0 +1,3 @@
+read x;
+write 20 + x;
+end;

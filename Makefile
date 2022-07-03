@@ -8,6 +8,9 @@ run: tm
 tree: tiny
 	./main sample.tny
 
+tree1: tiny
+	./main sample1.tny
+
 tiny: main.o util.o scan.o parse.o symtab.o analyze.o code.o cgen.o
 	gcc -g $^ -o main
 
